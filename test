@@ -1,7 +1,6 @@
 <?php
 
-         $handle = fopen("http://106.75.28.160/UCloud.txt", "rb"); 
-	 $contents = stream_get_contents($handle); 
-
-	  echo "UCanUup " .substr_count($contents,"UCanUup")."<br>"; 
-	  fclose($handle); 
+        $handle = fopen("http://106.75.28.160/UCloud.txt", "rb"); 
+	$contents = stream_get_contents($handle); 
+	echo "UCanUup " .substr_count($contents,"UCanUup")."<br>"; 
+	fclose($handle); 
